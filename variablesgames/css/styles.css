@@ -1,0 +1,51 @@
+body{
+    background-image: url(../img/backgroundxadre.png);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+
+
+/*edição header*/
+header{
+    margin-bottom: 20px;
+}
+.navbar-nav .nav-link {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    text-transform: uppercase; /* deixa capslock ativo */
+}
+
+/*edição layout do centro*/
+.novidade{
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+.memory{
+    background-color: #e2ae54;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+}
+.titulodasemana{
+    font-family: "Press Start 2P", cursive;
+    text-align: center;
+    color: black;
+    padding-top: 8px;
+}
+
+
+/*edição footer*/
+footer{
+    margin-top: auto;
+}
+.copia{
+    text-align: center;
+    color: black;
+    padding: 20px;
+}

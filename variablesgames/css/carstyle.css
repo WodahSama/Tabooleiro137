@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-image: url(../img/garage.jpg);
+    background-size: cover; /* cover faz cobrir pagina toda*/
+    background-position: center; /* centraliza a imagem*/
+    background-repeat: no-repeat;
+
+}
+/*edição header*/
+header{
+    margin-bottom: 20px;
+}
+.navbar-nav .nav-link {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    text-transform: uppercase; /* deixa capslock ativo */
+}
+
+
+
+
+/*edição layout do centro*/
+.carrospintura{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.horizonte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.dogenho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+/*edição footer*/
+footer{
+    margin-top: auto;
+}
+.copia{
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
